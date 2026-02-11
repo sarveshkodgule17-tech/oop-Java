@@ -1,14 +1,16 @@
-public class Demo
+class demo
 {
-int x;
+public static void main (String[] args)
+{
+try {
+int[] myNumbers = {1,2,3};
+System.out.println(myNumbers[10]);
+}
+catch (Exception e)
+{
+System.out.println("something went wrong.");
+}
+}
+}
+
  
- Demo() // Constructor 
-{
-  x=5;
-}
-public static void main(String[] args)
-{
-Demo Myobj= new Demo();
-System.out.println("Myobj.x");
-}
-}
